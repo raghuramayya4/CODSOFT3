@@ -1,0 +1,45 @@
+body{
+    border: 3px solid black; 
+    outline: 15px solid palevioletred;
+    margin :40px 450px;
+}
+h1{
+    text-align: center; 
+    font-size: 80px;
+    margin-top: 10px;
+    color: #3D5A80;
+}
+form{
+    margin-top: 15px;
+    text-align: center;
+}
+input[type=text]{
+    width: 570px;
+    height: 80px; 
+    margin-top: 15px; 
+    background-color: aliceblue;
+    border: 3px solid black;
+}
+input{
+    width: 130px; 
+    height: 75px; 
+    font-size: 45px;
+    border-radius: 7px;
+    margin: 8px;
+}
+input.num{
+    color: #E0FBFC;
+    background-color: navy;
+}
+input.operator{
+    color: navy;
+    background-color: #E0FBFC;
+    border:2px solid black;
+}
+input.operator:hover{
+    box-shadow: 5px 5px;
+    background-color: lightgrey;
+}
+.num:focus{
+    background-color: rgb(49, 49, 238);
+}
